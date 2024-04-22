@@ -37,22 +37,32 @@
             <input type="email" placeholder="Enter Email" id="signup-email">
             
             <input type="password" placeholder="Enter Password" id="signup-password">
+        
+            <label id="date-label">Date of Birth</label>
+            <input type="date" id="signup-dob">
             
-            <div class="same-line">
-                <label>DOB</label>
-                <input type="date" id="signup-dob">
+            <div class="same-line" id="radio-same-line">
+                <div class="space-between">
+                    <input type="radio" class="radio-input" name="signup-gender" value="male" id="male">
+                    <label for="male">Male</label>
+                    </div>
+                <div class="space-between">
+                    <input type="radio" class="radio-input" name="signup-gender" value="female" id="female">
+                    <label for="female">Female</label>
+                </div>
             </div>
+
+            <input type="text" placeholder="Enter Phone Number" id="signup-phone">
             
-            <div class="same-line">
-                <label for="male">Male</label>
-                <input type="radio" name="signup-gender" value="male" id="male">
-                <label for="female">Female</label>
-                <input type="radio" name="signup-gender" value="female" id="female">
-            </div>
-            
-            <div class="same-line">
-                <input type="checkbox" id="signup-terms">
+            <div class="same-line" id="check-same-line">
+                <input type="checkbox" class="check-input" id="signup-terms">
                 <label for="signup-terms">Agree to Terms and Conditions</label>
+            </div>
+
+            <div class="red-incorrect">
+                <!-- Handled by JS -->
+                <img src="../assets/incorrect.png" width="20">
+                <p id="incorrect-field"></p>
             </div>
             
             <div class="button-to-signup" onclick="validate()"><p>Sign up</p></div>
@@ -84,6 +94,7 @@
         </div>
     </div>
 
+    <script src="../script/signup.js"></script>
 
 </body>
 </html>
