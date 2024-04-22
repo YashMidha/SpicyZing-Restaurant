@@ -50,6 +50,12 @@ function validePhone(){
         incorrectText("Invalid Phone Number");
         return 0;
     }
+    for (i=0; i<phone.length; i++){
+        if (!(phone[i] >= '0' && phone[i] <= '9')){
+            incorrectText("Phone cannout have letters");
+            return 0;
+        }
+    }
     return 1;
 }
 
