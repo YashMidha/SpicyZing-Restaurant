@@ -2,7 +2,7 @@
 
 To run the website, run index.html
 
-Link : https://assemblydragon.github.io/SpicyZing-Restaurant/index.html
+Link : [https://assemblydragon.github.io/SpicyZing-Restaurant/index.html](https://yashmidha.github.io/SpicyZing-Restaurant/)
 
 ![image](https://github.com/AssemblyDragon/SpicyZing-Restaurant/assets/72779011/0235f6f2-8426-4c81-9366-e172d13e7e4d)
 ![image](https://github.com/AssemblyDragon/SpicyZing-Restaurant/assets/72779011/c68e7e42-c697-44f8-812a-369e7628b239)
