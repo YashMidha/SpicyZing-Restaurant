@@ -16,6 +16,7 @@ const ITEMS = [
     ["Whitesauce Pasta", "100", "veg", "main"],
     ["Veg Noodles", "100", "veg", "main"],
     ["Chicken Noodles", "150", "non-veg", "main"],
+    ["Chicken Noodles", "150", "non-veg", "main"],
 ];
 
 var cartItems = {};
